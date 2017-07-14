@@ -5,8 +5,8 @@ Repositório contendo alguns estudos que fiz sobre MEAN (MongoDB, Express, Angul
 Microsoft Virtual Academy - Using Node.js with Visual Studio Code
 -----------------------------------------------------------------  
   Projetos:
-    AdvancedRESTAPI
-    ExemploExpress
-    HelloWorld
-    MongoDBExample
-    MultipleRoutesExample
+  - AdvancedRESTAPI
+  - ExemploExpress
+  - HelloWorld
+  - MongoDBExample
+  - MultipleRoutesExample
