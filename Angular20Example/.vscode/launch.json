@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "userDataDir": "${workspaceRoot}/.vscode/chrome",
+            "runtimeArgs": [
+                "--disable-session-crashed-bubble"
+            ]
+        },
+        {
+            "name": "Attach Chrome",
+            "type": "chrome",
+            "request": "attach",
+            "url": "http://localhost:3000",
+            "port": 3001,
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
