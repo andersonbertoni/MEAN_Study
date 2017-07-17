@@ -1,14 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+// main entry point
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app.module';
 
-@Component({
-    selector: 'my-app',
-    template: `
-    <h1>Hello World!</h1>
-    `
-})
-
-export class AppComponent implements OnInit {
-    constructor() { }
-
-    ngOnInit() { }
-}
+platformBrowserDynamic().bootstrapModule(AppModule);
